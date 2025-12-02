@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+
+}
+
+.task-input {
+    display: flex;
+    left: 100;
+
+}
+.task-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.edit-btn, .delete-btn {
+    margin-left: 10px;
+}
+

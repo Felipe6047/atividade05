@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt=Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,27 +19,65 @@
 
     </header>
 
-    <main>
-        <section></section>
+        <!-- Seção de filtros -->
 
-    <div id="container">
-        <h1>Lista de Tarefas</h1>
+    <main>
+        <section id="filtros">
+            <button>Todas</button>
+            <button>Pendentes</button>
+            <button>Concluídas</button>   
+        </section>
+
+        <!-- Seção da lista de tarefas -->
+
+        <section id="task-section">
+    
+        <h2>Lista de Tarefas</h2>
         
-            <input type="checkbox" id="new-task">
-            <label for="new-task">Concluida</label>
-            
-        <form id="task-form">
         <ul id="task-list">
-            <li>Tarefa 1</li>
-            <li>Tarefa 2</li>
-            <li>Tarefa 3</li>
+        <li>
+        <input type="checkbox">
+        <span>Tarefa 1</span>
+        <button class="edit-btn">Editar</button>
+        <button class="delete-btn">Excluir</button>
+        </li>
+        <li>
+        <input type="checkbox">
+        <span>Tarefa 2</span>
+        <button class="edit-btn">Editar</button>
+        <button class="delete-btn">Excluir</button>
+        </li>
+        <li>
+        <input type="checkbox">
+        <span>Tarefa 3</span>
+        <button class="edit-btn">Editar</button>
+        <button class="delete-btn">Excluir</button>
+        </li>
+        <li>
+        <input type="checkbox">
+        <span>Tarefa 4</span>
+        <button class="edit-btn">Editar</button>
+        <button class="delete-btn">Excluir</button>
+        </li>
+        <li>
+        <input type="checkbox">
+        <span>Tarefa 5</span>
+        <button class="edit-btn">Editar</button>
+        <button class="delete-btn">Excluir</button>
+        </li>
+        <li>
+        <input type="checkbox">
+        <span>Tarefa 6</span>
+        <button class="edit-btn">Editar</button>
+        <button class="delete-btn">Excluir</button>
+        </li>
         </ul>
-        </form>
-    </div>
-    <footer>
-        <p>Gerenciador de Tarefas &copy; 2024</p>
-    </footer>
+        
+        </section>
+        <!-- Contagem de tarefas pendentes -->
+        <footer>
+    <p id="task-counter"><span id="count">0</span> pendentes</p>
+</footer>
 </body>
 <script src="script.js"></script>
-
 </html>
