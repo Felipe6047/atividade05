@@ -9,26 +9,32 @@
 
 
 </head>
-<body>    
+<body> 
+    <div class="Cabecalho"> 
     <header>
         <h1>Gerenciador de Tarefas</h1>
         <form>
         <input type="text" id="task-input" placeholder="Digite sua tarefa aqui">
-        <input type="submit" value="Adicionar Tarefa">
+        <input type="submit" id="add-task" value="Adicionar Tarefa">
         </form>
 
     </header>
+    </div>  
 
         <!-- Seção de filtros -->
 
     <main>
+        <div class="Seção-de-Filtros">
         <section id="filtros">
-            <button>Todas</button>
-            <button>Pendentes</button>
-            <button>Concluídas</button>   
+            <button id="Todas">Todas</button>
+            <button id="Pendentes">Pendentes</button>
+            <button id="Concluídas">Concluídas</button>   
         </section>
+        </div>
 
         <!-- Seção da lista de tarefas -->
+
+        <div class="corpo">
 
         <section id="task-section">
     
@@ -53,27 +59,10 @@
         <button class="edit-btn">Editar</button>
         <button class="delete-btn">Excluir</button>
         </li>
-        <li>
-        <input type="checkbox">
-        <span>Tarefa 4</span>
-        <button class="edit-btn">Editar</button>
-        <button class="delete-btn">Excluir</button>
-        </li>
-        <li>
-        <input type="checkbox">
-        <span>Tarefa 5</span>
-        <button class="edit-btn">Editar</button>
-        <button class="delete-btn">Excluir</button>
-        </li>
-        <li>
-        <input type="checkbox">
-        <span>Tarefa 6</span>
-        <button class="edit-btn">Editar</button>
-        <button class="delete-btn">Excluir</button>
-        </li>
         </ul>
         
         </section>
+        </div>
         <!-- Contagem de tarefas pendentes -->
         <footer>
     <p id="task-counter"><span id="count">0</span> pendentes</p>
