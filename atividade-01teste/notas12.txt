@@ -1,0 +1,192 @@
+vscode
+
+código
+Carl + A
+Alt + shift + F
+
+Git Bash
+configurar usuario
+git config --global user.name ""
+git config --global user.email ""
+ 
+ver configurações 
+git config --list
+
+Criando repositório
+cd Documents/GIt/^C
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+ background-color: lightgray;
+        background-image: url('imagens/thanos-vingadores.jpg');
+        background-repeat: no-repeat
+        background-size: cover;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+
+
+
+  body footer {
+        position: fixed;
+        bottom: 0;
+      }
+
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+CSS Box Model
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+<style>
+      div.sticky {
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: lightgreen;
+        border: 2px solid #3333FF;
+    }
+</style>
+
+
+
+    <div class="sticky"> helo word</div>
+  
+    <div style= "padding-bottom: 2000px;" >
+        Conteúdo da página para demonstrar o efeito sticky.
+   <h2>Menu Fixo</h2>
+        <p>Este menu permanece fixo no topo da página ao rolar.</p>
+    </div>
+    
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+:root {
+ --cor-primaria: #4CAF50;
+ --cor-secundaria: #FF5722;
+ --cor-fundo: #F5F5F5;
+ --cor-texto: #333333;
+}
+
+
+body {
+ font-family: Arial, sans-serif;
+ background-color: var(--cor-fundo);
+ color: var(--cor-texto);
+ line-height: 1.6;
+ padding: 20px;
+}
+
+
+h1 {
+ color: var(--cor-primaria);
+ margin-bottom: 20px;
+}
+
+
+
+
+
+
+p {
+ margin-bottom: 15px;
+}
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Colorido</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="meu-botao">Clique Aqui</button>
+
+</body>
+</html>
+
+VVVVVVVVVVVVVVVVVVVVVVV
+
+.meu-botao {
+    background-color: #FF0000; /* Cor de fundo: Vermelho (valor hexadecimal) */
+    color: #FFFFFF;           /* Cor do texto: Branco */
+    padding: 15px 30px;       /* Espaçamento interno (altura e largura) */
+    border: none;             /* Remove a borda padrão */
+    cursor: pointer;          /* Muda o cursor para uma mãozinha ao passar por cima */
+    border-radius: 5px;       /* Adiciona cantos arredondados */
+    font-size: 16px;          /* Tamanho da fonte */
+}
+
+/* Efeito de mudança de cor ao passar o mouse (hover) */
+.meu-botao:hover {
+    background-color: #CC0000; /* Um tom de vermelho mais escuro para o efeito hover */
+}
+
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Grid Layout</h1>
+
+<p>The Grid Layout Module offers a grid-based layout system, with rows and columns.</p>
+<p>The Grid Layout Module makes it easy to design complex and responsive web pages without using floats and positioning:</p>
+
+<div class="container">
+  <div class="header"><h2>My Header</h2></div>
+  <div class="menu"><a href="#">Link 1</a><br><a href="#">Link 2</a><br><a href="#">Link 3</a></div>
+  <div class="content"><h3>Lorem Ipsum</h3><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet. Potenti dignissim litora eget montes rhoncus sapien neque urna. Cursus libero sapien integer magnis ligula lobortis quam ut.</p></div>
+  <div class="footer"><h4>Footer</h4></div>
+</div>
+
+</body>
+</html>
+
+<!--#crumbs=
+<div id='breadcrumb'>
+<ul>
+<li><a href='/default.asp'>Home</a></li>
+<li><a href='/css/default.asp'>CSS</a></li>
+<li><a href='/css/css_grid.asp'>CSS Grid Intro</a></li>
+<li>Tryit: Grid layout</li>
+</ul>
+</div>
+-->
